@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="conteiner">
+        <nav>
+            <h2 class="portfolio">Portfolio</h2>
+            <ul>
+                <li><a class="menu" href="#sobre">Sobre Mim</a></li>
+                <li><a class="menu" href="#projetos-id">Projetos</a></li>
+            </ul>
+        </nav>
+        <div class="nome">
+            <h1 class="gradiente">Fabio Ferreira</h1>
+            <h3>Programador Back End</h3>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/fabinho-f-1312912a6/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/linkedin.png">
+                </a>
+                <a href="https://github.com/FabinBH" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/git-hub.png">
+                </a>
+            </div>
+        </div>
+    </div>
+    <section id="sobre">
+        <div>
+            <h2 class="gradiente">Um pouco sobre mim...</h2>
+            <p>Desde que comecei a estudar programação, venho me dedicando diariamente ao aprimoramento de minhas habilidades e conhecimentos na área. Nos últimos 18 meses, tenho aplicado consistentemente o que aprendi, desenvolvendo uma variedade de projetos. Minha facilidade em aprender, aliada à boa comunicação e à capacidade de trabalhar em equipe, são pontos fortes que destaco no meu perfil profissional.</p>
+        </div>
+        <div>
+            <h2 class="gradiente">Minhas Tecnologias</h2>
+            <ul>
+                <li><img src="./img/java.png"></li>
+                <li><img src="./img/python.png"></li>
+                <li><img src="./img/php.png"></li>
+                <li><img src="./img/sql.png"></li>
+                <li><img src="./img/spring.png"></li>
+                <li><img src="./img/git.png"></li>
+            </ul>
+        </div>
+    </section>
+    <div class="projetos">
+        <h2 class="gradiente" id="projetos-id">Principais Projetos</h2>
+        <div class="card-projetos">
+            <div class="card">
+                <h5>Cadastro de alunos</h5>
+                <p>O projeto é um sistema de cadastro de alunos onde os usuários se registram por e-mail e podem fazer uma prova para obter um certificado, sendo permitido apenas uma tentativa por aluno. Desenvolvido em Java com o Spring Framework, o sistema utiliza endpoints RESTful para manipulação de dados e gerenciamento de sessões, garantindo eficiência e escalabilidade no desenvolvimento web.</p>
+                <a href="https://github.com/FabinBH/Cadastro-de-alunos" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <h5>To Do List</h5>
+                <p>Este projeto é uma aplicação web simples de "To Do List" desenvolvida em Java, utilizando o framework Spring MVC. O objetivo é praticar os conceitos aprendidos e criar uma ferramenta básica para a gestão de tarefas, permitindo aos usuários adicionar, visualizar e excluir itens da lista de afazeres.</p>
+                <a href="https://github.com/FabinBH/Web-Todo" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <h5>Programas em Python</h5>
+                <p>Este repositório contém diversos arquivos Python, cada um desenvolvido para diferentes funcionalidades e aplicações práticas. Ideal para estudantes e entusiastas da programação que desejam aprender e aplicar conceitos de Python de forma prática. Cada script é independente e aborda tópicos variados, proporcionando um aprendizado diversificado e focado em resolver problemas reais.</p>
+                <a href="https://github.com/FabinBH/Python" target="_blank">Ver Projeto</a>
+            </div>
+        </div>
+    </div>
+    <button class="botao" id="scrollButton"><img src="./img/seta.png"></button>
+    <script src="script.js"></script>
+</body>
+</html>
