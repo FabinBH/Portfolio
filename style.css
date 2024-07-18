@@ -70,6 +70,7 @@ h1 {
     font-size: 80px;
     font-family: 'Playwrite IS', cursive;
     font-optical-sizing: auto;
+    text-align: center;
 }
 
 .nome h3 {
@@ -80,13 +81,16 @@ h1 {
 section {
     display: grid;
     align-items: center;
-    padding: 8vh 15%;
+    justify-content: center;
+    padding-bottom: 6%;
     background-color: #292929;
 }
 
 section div h2 {
     color: #ffffd7;
     font-size: 70px;
+    text-align: center;
+    padding-top: 4%;
 }
 
 section div p {
@@ -95,11 +99,14 @@ section div p {
     margin-top: 2%;
     margin-bottom: 2%;
     text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 section div ul {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 section div li{
@@ -108,7 +115,7 @@ section div li{
 
 section div li img{
     width: 70px;
-    margin-right: 2vw;
+    margin-right: auto;
 }
 
 .projetos {
